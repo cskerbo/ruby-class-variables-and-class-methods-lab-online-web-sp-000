@@ -6,9 +6,9 @@ class Song
   @@genre = []
 
   def intialize(name, artist, genre)
-    @@name = name
-    @@artist = artist
-    @@genre = genre
+    @name = name
+    @artist = artist
+    @genre = genre
     @@count += 1
   end
 
