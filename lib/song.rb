@@ -6,9 +6,8 @@ attr_accessor :name, :artist, :genre
 @@genre = []
 
 def intialize(name, artist, genre)
- @name = name
- @artist = artist
- @genre = genre
+ @@artist = artist
+ @@genre = genre
  @@count += 1
 end
 
