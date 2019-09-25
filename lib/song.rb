@@ -28,8 +28,8 @@ class Song
 
   def genre_count
     hash = {}
-    @@genres.each do |x, y|
-      x.count
+    @@genres.each do |genre, count|
+      hash[count] = genre.sort
     end
   end
 
