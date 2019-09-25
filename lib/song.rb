@@ -5,7 +5,7 @@ class Song
   @@artist = []
   @@genre = []
 
-  def intialize
+  def intialize(name, artist, genre)
     @@name = name
     @@artist = artist
     @@genre = genre
@@ -16,7 +16,7 @@ class Song
     @@count
   end
 
-  def self.genres(genre)
+  def self.genres
     @@genres
   end
 
